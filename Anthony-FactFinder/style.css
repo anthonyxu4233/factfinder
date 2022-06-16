@@ -1,0 +1,65 @@
+/*https://coolors.co/eeeeff-7f7caf-9fb4c7-28587b-9fb798*/
+
+main{
+	border: 4px solid black;
+	display: grid;
+	width: 800px;
+	height: 600px;
+	grid-template-rows: 100px auto;
+	border-radius: 18px;
+	background-color: #950952;
+	
+	
+}
+
+#factdisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 3;
+    font-family:'Trebuchet MS';
+    text-align: center;
+    padding: 10px;
+	background-color: #950952;
+	color: #EEEEFF;
+	border-radius: 15px;
+
+}    
+form{
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	border-radius: 15px;
+	background-color: #99D17B;
+	padding: 6px;
+	grid-gap:6px;
+    
+}
+input{
+	background-color: #28587B;
+	font-family: 'Trebuchet MS';
+	font-size: 15px;
+	color: #EEEEFF;
+	border-radius: 5px;
+
+}
+
+input:hover{
+	color: #28587B;
+	background-color: #EEEEFF;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+    background-color: #cfcff7;
+}
+
+img{
+	display: flex;
+	width:25%;
+	border-radius: 100%;
+	border: 10px solid #FFFFFF;
+	margin: 10px;
+}
